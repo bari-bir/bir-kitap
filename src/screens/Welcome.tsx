@@ -14,7 +14,7 @@ export const Welcome = ({ isHaveNavigation = true }: { isHaveNavigation?: boolea
     useEffect(() => {
         const restTime = setTimeout(() => {
             if (navigation) {
-                navigation.navigate("BookCrossingWebView")
+                navigation.navigate("Login")
             }
         }, 1000)
 
